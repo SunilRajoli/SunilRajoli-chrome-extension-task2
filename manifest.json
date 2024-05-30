@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "LinkedIn Profile Fetcher",
+  "version": "1.0",
+  "description": "Fetches and posts LinkedIn profile data",
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "storage",
+    "<all_urls>"
+  ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "icon.png"
+    },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
